@@ -255,17 +255,15 @@ local function fartsakenLoad()
 		DisableBuildWarnings = true,
 		DisableRayfieldPrompts = true,
 
-		KeySystem = true,
+		KeySystem = false,
 		KeySettings = {
 			Title = "verify yoself!!!",
 			Subtitle = "im gonna cum in you",
-			Note = 'key is "michaelhateskeys"',
+			Note = 'kys',
 			FileName = "fartsakenKey",
 			SaveKey = true,
 			GrabKeyFromSite = false,
-			Key = { "KeyHatin" },
-		},
-	})
+			Key = { "kys" }
 
 	local function GetCharAndFold()
 		local Me = game.Players.LocalPlayer
