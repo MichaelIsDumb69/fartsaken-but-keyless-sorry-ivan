@@ -90,7 +90,7 @@ local function fartsakenLoad()
 	local LopticaCooldown = false
 	local ReplaceStandingMusic = false
 	local Prediction = false
-	local EnableIAIMBOTPLS = false
+	local EnableIAIMBOTPLS = true
 	local LowAttentionSpanModeActivated = false
 	local BypassCooldown = false
 	local Dogens = false
@@ -101,12 +101,12 @@ local function fartsakenLoad()
 	local qlbkjhdf = false
 
 	-- sittings
-	local VectoryMultipliery = 2
+	local VectoryMultipliery = 0.5
 	local WantedChrges = 2
 	local SkibidiDistance = 6
 	local AimLockTimer = 2
-	local AimSmoothnes = 0.1
-	local PredictionMultiplier = 0.5
+	local AimSmoothnes = 0.05
+	local PredictionMultiplier = 0.69420
 
 	-- ui tabbings
 	local PlayerTab = nil
@@ -245,22 +245,22 @@ local function fartsakenLoad()
 
 
 	local GUI = Rayfield:CreateWindow({
-		Name = "FartSaken",
+		Name = "Keysaken",
 		Theme = "Default",
-		LoadingTitle = "Fart Hub",
-		LoadingSubtitle = "meow meow meow meow meow meow",
+		LoadingTitle = "sorry ivan, i love you",
+		LoadingSubtitle = "holy shit im cumming",
 		Icon = "microwave",
-		Link = "https://github.com/ivannetta/ShitScripts/Forsaken",
+		Link = "https://github.com/MichaelIsDumb69/fartsaken-but-keyless-sorry-ivan/blob/main/keysaken.lua",
 
 		DisableBuildWarnings = true,
 		DisableRayfieldPrompts = true,
 
-		KeySystem = false,
+		KeySystem = true,
 		KeySettings = {
 			Title = "verify yoself!!!",
 			Subtitle = "im gonna cum in you",
-			Note = 'kys',
-			FileName = "fartsakenKey",
+			Note = "code's kys",
+			FileName = " ",
 			SaveKey = true,
 			GrabKeyFromSite = false,
 			Key = { "kys" }
