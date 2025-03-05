@@ -242,7 +242,7 @@ local function fartsakenLoad()
 		--["GrassSkirt"] = "GrassSkirt.mp3", removed because its too short and i didnt check when they uploaded this.
 	}
 
-	setclipboard("https://linkunlocker.com/fartsaken-ZINXl")
+
 
 	local GUI = Rayfield:CreateWindow({
 		Name = "FartSaken",
@@ -257,13 +257,13 @@ local function fartsakenLoad()
 
 		KeySystem = true,
 		KeySettings = {
-			Title = "Fartsaken Key System",
-			Subtitle = "im such a meowzer like meow meow",
-			Note = "Copied Link To Clipboard",
+			Title = "verify yoself!!!",
+			Subtitle = "im gonna cum in you",
+			Note = 'key is "michaelhateskeys"',
 			FileName = "fartsakenKey",
 			SaveKey = true,
 			GrabKeyFromSite = false,
-			Key = { "ohio" },
+			Key = { "KeyHatin" },
 		},
 	})
 
